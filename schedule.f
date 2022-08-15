@@ -144,7 +144,6 @@ C Edit the raw file:
       WRITE(80,21)
       DO I=1,itotalH
        WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
-       WRITE(80,21)
       END DO
 
 
