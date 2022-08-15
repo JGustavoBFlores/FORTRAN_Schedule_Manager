@@ -29,10 +29,11 @@ C PRINT THE SCHEDULE TO SCREEN WITH A FORMAT
 C ASK WHAT THE USER WANTS TO DO
  1001 CONTINUE
       PRINT*, 'Do you want to change your schedule?(Y/N)'
-C     READ*, ANS(1)
-      ANS='Y'
+      READ*, ANS   
+c     ANS='Y'
       IF(ANS.EQ.'N'.OR.ANS.EQ.'n')THEN
        PRINT*, 'Have a nice day!'
+       GO TO 9191
       ELSE IF(ANS.EQ.'Y'.OR.ANS.EQ.'y')THEN
        GO TO 1010
       ELSE 
@@ -40,6 +41,7 @@ C     READ*, ANS(1)
        GO TO 1001
       END IF
  1010 CONTINUE
+
 
 C ASK 
       PRINT*, "What time do you have right now? (Day's letter and time)"
@@ -136,7 +138,7 @@ C PRINT THE FINAL SCHEDULE
       PRINT 3,
 
 C Edit the raw file:
-
+ 9191 CONTINUE
       REWIND(90)
       DO I=1,itotalH
        WRITE(90,10) itime(I),(SCH(I,J),J=1,5)
