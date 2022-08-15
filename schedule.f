@@ -142,10 +142,10 @@ C Edit the raw file:
       REWIND(80)
       WRITE(80,1)
       WRITE(80,2)
-      WRITE(80,3)
+c     WRITE(80,3)
       DO I=1,itotalH
        WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
-       WRITE(80,3)
+c      WRITE(80,3)
       END DO
 
 
