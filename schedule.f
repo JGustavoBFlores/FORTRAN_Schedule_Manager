@@ -138,6 +138,15 @@ C Edit the raw file:
        WRITE(90,10) itime(I),(SCH(I,J),J=1,5)
       END DO
 
+      OPEN(UNIT=80,FILE='README.MD')
+      REWIND(80)
+      WRITE(80,1)
+      WRITE(80,2)
+      WRITE(80,3)
+      DO I=1,itotalH
+       WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
+       WRITE(80,3)
+      END DO
 
 
       stop
