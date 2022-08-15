@@ -145,7 +145,7 @@ C Edit the raw file:
 c     WRITE(80,3)
       DO I=1,itotalH
        WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
-c      WRITE(80,3)
+       WRITE(80,21)
       END DO
 
 
@@ -160,4 +160,5 @@ C
  4    FORMAT('| ',I2,':00',' | ',5(A6,' | '))
 
  10   FORMAT(I2,X,5(A6,X))
+ 21   FORMAT('|:---:  |:---:   |:---:   |:---:   |:---:   |--------|')
       end program
