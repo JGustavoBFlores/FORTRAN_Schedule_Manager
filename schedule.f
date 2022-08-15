@@ -146,6 +146,10 @@ C Edit the raw file:
        WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
       END DO
 
+      CALL SYSTEM('git add --all')
+      CALL SYSTEM("git commit -m 'commit'")
+      CALL SYSTEM("git push --all")
+
 
       stop
 C
