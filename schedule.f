@@ -1,5 +1,5 @@
       PROGRAM SCHEDULER
-      PARAMETER(itotalH=6)
+      PARAMETER(itotalH=12)
       CHARACTER*1 ANS
       CHARACTER*6 SCH(itotalH,5)
       DIMENSION iTIME(itotalH)
