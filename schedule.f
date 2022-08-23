@@ -76,7 +76,7 @@ C ASK FOR THE CURRENT SCHEDULE TO MOVE
        ii=iANS+(12-iTIME(1)+1)
       END IF
 
-      PRINT*,   ii,Ji
+C     PRINT*,   ii,Ji
       IF(SCH(ii,Ji).eq.'******')THEN
        PRINT*, 'Pick a time with your name in it!' 
        GO TO 1010
@@ -116,7 +116,7 @@ C ASK FOR THE CURRENT SCHEDULE TO MOVE
        it=iANS+(12-iTIME(1)+1)
       END IF
 
-      PRINT*,   it,Jt
+C     PRINT*,   it,Jt
       IF(SCH(it,jt).NE.'******')THEN
        PRINT*, 'That time is taken! Pick an empty one!' 
        GO TO 1011
