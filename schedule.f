@@ -156,7 +156,7 @@ C Edit the raw file:
       CALL SYSTEM("git commit -q -m 'commit'")
       CALL SYSTEM("git push -q --all")
 
-      PRINT*, 'All done, have a nice meeting!'
+      PRINT*, 'All done, have a nice day!'
 
       stop
 C
