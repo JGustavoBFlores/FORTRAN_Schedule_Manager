@@ -156,7 +156,7 @@ C Edit the raw file:
       print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
       CALL SYSTEM("git commit -q -m 'commit'")
       print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
-      CALL SYSTEM("git push --all")
+      CALL SYSTEM("git push -q --all")
 
 
       stop
