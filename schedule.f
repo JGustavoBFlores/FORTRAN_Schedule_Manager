@@ -153,11 +153,10 @@ C Edit the raw file:
       END DO
 
       CALL SYSTEM('git add --all')
-      print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
       CALL SYSTEM("git commit -q -m 'commit'")
-      print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
       CALL SYSTEM("git push -q --all")
 
+      PRINT*, 'All done, have a nice meeting!'
 
       stop
 C
