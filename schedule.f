@@ -153,7 +153,9 @@ C Edit the raw file:
       END DO
 
       CALL SYSTEM('git add --all')
+      print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
       CALL SYSTEM("git commit -m 'commit'")
+      print*,'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`'
       CALL SYSTEM("git push --all")
 
 
