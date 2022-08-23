@@ -32,7 +32,6 @@ C ASK WHAT THE USER WANTS TO DO
       READ*, ANS   
 c     ANS='Y'
       IF(ANS.EQ.'N'.OR.ANS.EQ.'n')THEN
-       PRINT*, 'Have a nice day!'
        GO TO 9191
       ELSE IF(ANS.EQ.'Y'.OR.ANS.EQ.'y')THEN
        GO TO 1010
