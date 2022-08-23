@@ -40,10 +40,10 @@ c     ANS='Y'
        PRINT*, 'Thats not a Y or an N!'
        GO TO 1001
       END IF
+
+
  1010 CONTINUE
-
-
-C ASK 
+C ASK FOR THE CURRENT SCHEDULE TO MOVE 
       PRINT*, "What time do you have right now? (Day's letter and time)"
       PRINT*, "                                  (example: M 9)"
       READ*, ANS,iANS 
