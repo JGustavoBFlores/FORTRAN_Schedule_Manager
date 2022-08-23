@@ -123,7 +123,7 @@ C ASK FOR THE CURRENT SCHEDULE TO MOVE
       END IF
 
 
-      print*,SCH(ii,ji),SCH(it,jt)
+C     print*,SCH(ii,ji),SCH(it,jt)
       SCH(it,jt)=SCH(ii,ji)
       SCH(ii,ji)='******'
       
