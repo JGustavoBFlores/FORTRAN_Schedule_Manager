@@ -151,7 +151,7 @@ C Edit the raw file:
        WRITE(80,4) itime(I), (SCH(I,J),J=1,5)
       END DO
 
-      CALL SYSTEM('git add --all')
+      CALL SYSTEM('git add README.md SCHEDULE ')
       CALL SYSTEM("git commit -q -m 'commit'")
       CALL SYSTEM("git push -q --all")
 
