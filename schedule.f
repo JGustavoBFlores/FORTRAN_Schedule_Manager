@@ -76,7 +76,7 @@ C ASK FOR THE CURRENT SCHEDULE TO MOVE
       END IF
 
 C     PRINT*,   ii,Ji
-      IF(SCH(ii,Ji).eq.'******')THEN
+      IF(SCH(ii,Ji).eq.'******'.OR.SCH(ii,Ji).eq.'*OPEN*')THEN
        PRINT*, 'Pick a time with your name in it!' 
        GO TO 1010
       END IF
@@ -116,15 +116,15 @@ C     PRINT*,   ii,Ji
       END IF
 
 C     PRINT*,   it,Jt
-      IF(SCH(it,jt).NE.'******')THEN
-       PRINT*, 'That time is taken! Pick an empty one!' 
+      IF(SCH(it,jt).NE.'*OPEN*')THEN
+       PRINT*, 'That time is taken! Pick an OPEN one!'
        GO TO 1011
       END IF
 
 
 C     print*,SCH(ii,ji),SCH(it,jt)
       SCH(it,jt)=SCH(ii,ji)
-      SCH(ii,ji)='******'
+      SCH(ii,ji)='*OPEN*'
       
       
 C PRINT THE FINAL SCHEDULE
