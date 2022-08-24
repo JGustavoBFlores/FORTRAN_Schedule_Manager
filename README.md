@@ -1,5 +1,5 @@
 |  TIME | MON(M)  | TUE(T)  | WED(W) | THU(H) | FRI(F) |
-| :---: | :---:   | :---:   | :---:  | :---:  | :---:  |
+| :---: | :-----: | :-----: | :----: | :----: | :----: |
 |  8:00 | KUSAL K | ALEX J  | ****** | ****** | ****** | 
 |  9:00 | BLOCKED | M2QMAH  | ****** | BLOCKED| BLOCKED| 
 | 10:00 | BLOCKED | *OPEN*  | SYMTRY | BLOCKED| BLOCKED| 
