@@ -1,2 +1,1 @@
-git pull origin master
-cat README.md
+open https://jgustavobflores.github.io/FORTRAN_Schedule_Manager/
