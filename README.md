@@ -6,9 +6,12 @@
 | 11:00 | ROBERT  | ******  |SYMMETRY| BLOCKED| SEMINAR| 
 | 12:00 | ******  | ******  | ****** | ****** | BLOCKED| 
 |  1:00 | ******  | ******  | ****** | ****** | ****** | 
-|  2:00 |KUSHANTHA| GUSTAVO | *OPEN* | *OPEN* | ****** | 
+|  2:00 |KUSHANTHA| *OPEN*  | *OPEN* | *OPEN* | ****** | 
 |  3:00 | ******  | GUSTAVO | PETER L| *OPEN* | ****** | 
 |  4:00 | ******  | ******* | ****** | ****** | ****** | 
 |  5:00 | ******  |GROUP MTG| ****** | ****** | ****** | 
 |  6:00 | ******  | ******  | ****** | ****** | ****** | 
 |  7:00 | ******  | ******  | ****** | ****** | ****** | 
+
+
+Please only change spots with your name and *OPEN* in it!
