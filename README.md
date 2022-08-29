@@ -5,8 +5,8 @@
 | 10:00 | FLOSIC  | *OPEN*  |SYMMETRY| BLOCKED| BLOCKED| 
 | 11:00 | ROBERT  | ******  |SYMMETRY| BLOCKED| SEMINAR| 
 | 12:00 | ******  | ******  | ****** | ****** | BLOCKED| 
-|  1:00 | PETER L  | ******  | ****** | ****** | ****** | 
-|  2:00 |KUSHANTHA| *OPEN*  | *OPEN* | *OPEN* | ****** | 
+|  1:00 | PETER L | ******  | ****** | ****** | ****** | 
+|  2:00 |KUSHANTHA| *OPEN*  | SHERAB | *OPEN* | ****** | 
 |  3:00 | ******  | GUSTAVO | PETER L| *OPEN* | ****** | 
 |  4:00 | ******  | ******* | ****** | ****** | ****** | 
 |  5:00 | ******  |GROUP MTG| ****** | ****** | ****** | 
